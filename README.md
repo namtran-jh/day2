@@ -7,6 +7,7 @@
 
 3. Learn to write Clean code & Co-operate with others
 > `Material`: https://www.atlassian.com/blog/wp-content/uploads/HelloWorldEbook.pdf
+
 > `Material`: https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship-ebook-dp-B001GSTOAM/dp/B001GSTOAM
 
 4. Learn about encapsulation
