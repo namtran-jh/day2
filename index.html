@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;700&display=swap" rel="stylesheet">
+    <title>Exercise 5</title>
+</head>
+
+<body>
+    <div id="container">
+        <div id="main">
+            <img id="showingPicture" src="" alt="" />
+            <div id="pictureDescription">
+                <h1 id="pictureCaption"></h1>
+                <p id="pictureContent"></p>
+            </div>
+            <div id="navigation">
+                <a class="navigationPrev" onclick="movePicture(-1)">&#10094;</a>
+                <a class="navigationNext" onclick="movePicture(1)">&#10095;</a>
+            </div>
+        </div>
+        <div id="listPictures">
+        </div>
+        <div id="buttonSwapMode">
+            <button id="modeManual" onclick="setModeManual()">Manual</button>
+            <button id="modeAuto" onclick="setModeAuto()">Auto</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
